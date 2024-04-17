@@ -102,7 +102,7 @@
                     <!-- Right column for contact form -->
                     <div class="contact-form">
                       <h2 class="mb-3">Send me a <span class="blue">message.</span> </h2>
-                      <form action="post">
+                      <form action="post" data-netlify="true">
                         <!-- Form fields -->
                         <div class="form-group ">
                           <label for="name">Name:</label>
@@ -120,6 +120,7 @@
                           <label for="message">Message:</label>
                           <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
                         </div>
+                        <div data-netlify-recaptcha="true" class="mt-3" ></div>
                         <button type="submit" class="btn btn-primary mt-3">Submit</button>
                       </form>
                     </div>
