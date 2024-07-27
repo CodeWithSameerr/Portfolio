@@ -59,6 +59,10 @@ body{
 }
 
 /* about section  */
+.font-size-para{
+   font-size: 1.1rem!important;
+}
+
 
 .work-heading h2{
     font-size: 2rem;
